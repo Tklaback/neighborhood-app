@@ -17,6 +17,7 @@ export function About(){
                 to lease to your neighbors. We want to close the gap in communication
                 between neighbors so that you rarely have to buy new equipment.</p>
             </div>
+            <footer><p>Wes Bovee    http://ec2-52-53-148-180.us-west-1.compute.amazonaws.com:8080</p></footer>
         </>
     )
 }
@@ -26,6 +27,7 @@ export function Profile(){
         <div>
             <Nav />
             <ProfilePage />
+            <footer><p>Wes Bovee    http://ec2-52-53-148-180.us-west-1.compute.amazonaws.com:8080</p></footer>
         </div>
     )
 }
@@ -37,6 +39,7 @@ function Home(){
             <div className="main-content">
                 <MainFeed />
             </div>
+            <footer><p>Wes Bovee    http://ec2-52-53-148-180.us-west-1.compute.amazonaws.com:8080</p></footer>
         </div>
     )
 }
